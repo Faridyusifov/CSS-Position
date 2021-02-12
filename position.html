@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Position</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="position.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Position</h1>
+    </header>
+    <main>
+        <div class="relative-positioning">
+            <h2>Relative Positioning</h2>
+            <pre class="code"><span class="clr-yellow">.item-relative</span>{
+        <span class="clr-blue">position </span>:<span class="clr-value"> relative </span>;
+        <span class="clr-blue">top </span>:<span class="clr-value">  40px </span>;
+        <span class="clr-blue">left </span>:<span class="clr-value"> 40px </span>;
+}</pre>
+            <div class="example1">
+                <div class="example-relative">
+                    class="relative"
+                    <div class="example-item-relative">class="item-relative"</div>
+
+                </div>
+            </div>
+            <h4>Class-i "item-relative" olan div-e <i>position:relative</i> verdikde hemin item class-i "relative" olan div-in sol yuxari kuncunde olacaq.</h4>
+        </div>
+
+
+        <div class="absolute-positioning">
+            <h2>Absolute Positioning</h2>
+            <pre class="code"><span class="clr-yellow">.item-absolute</span>{
+        <span class="clr-blue">position </span>:<span class="clr-value"> absolute </span>;
+        <span class="clr-blue">top </span>:<span class="clr-value"> 40px </span>;
+        <span class="clr-blue">left </span>:<span class="clr-value"> 40px </span>;
+}</pre>
+            <div class="example2">
+                <p>Browser window</p>
+                <!-- <div class="example-absolute"> -->
+                    <div class="example-item-absolute">class="item-absolute"</div>
+                    
+                <!-- </div> -->
+            </div>
+            <h4>Class-i "item-absolute" olan div-e <i>position:absolute </i> verdikde hemin div browser-in penceresinin sol yuxari kuncunde olacaq.</h4>
+        </div>
+
+        <div class="absolute-positioning">
+            <h2>(Relatively) Absolute Positioning</h2>
+            <pre class="code"><span class="clr-yellow">.relative</span>{
+        <span class="clr-blue">position </span>:<span class="clr-value"> relative </span>;
+}</pre>
+            <pre class="code"><span class="clr-yellow">.item-absolute</span>{
+        <span class="clr-blue">position </span>:<span class="clr-value"> absolute </span>;
+        <span class="clr-blue">top </span>:<span class="clr-value"> 30px </span>;
+        <span class="clr-blue">left </span>:<span class="clr-value"> 30px </span>;
+}</pre>
+            <div class="example2">
+                <p>Browser window</p>
+                <div class="example-absolute">
+                    class="relative"
+                    <div class="example-item-absolute-1">class="item-absolute"</div>
+                    
+                </div>
+            </div>
+            <h4></h4>
+        </div>
+    </main>
+</body>
+</html>

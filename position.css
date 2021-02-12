@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+*{
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+    color: #5D6063;
+    text-align: center;
+    
+}
+h2{
+    font-size: 50px;
+    margin-left: 50px;
+    color: #85989F;
+}
+h4{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+p{
+    padding: 10px;
+}
+.code{
+    background-color: #1E1E1E;
+    color: cornsilk;
+    /* display: inline-block; */
+    padding: 10px;
+    width: max-content;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.clr-yellow{
+    color: #CB812D;
+}
+.clr-blue{
+    color:#1E63C4;
+}
+.clr-value{
+    color: #CE916A;
+}
+.example1{
+    width: 300px;
+    height:200px;
+    padding: 50px;
+    background-color: darkgrey;
+    margin: 10px 0px 0px 50px;
+}
+.example-relative{
+    width: 200px;
+    height: 200px;
+    background-color: darkkhaki;
+    margin: auto;
+}
+.example1 .example-item-relative{
+    /* width: 100px;
+    height: 100px; */
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    background-color: darkolivegreen;
+    color: gold;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.example2{
+    width: 300px;
+    height:300px;
+    /* padding: 50px; */
+    background-color: darkgrey;
+    margin: 10px 0px 0px 50px;
+}
+.example-absolute{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: darkkhaki;
+    margin: auto;
+    padding: 8px;
+    position: relative;
+}
+.example-item-absolute{
+    /* width: 100px;
+    height: 100px; */
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    background-color: darkolivegreen;
+    color: gold;
+    position: absolute;
+    top: 870px;
+    left: 120px;
+}
+.example-item-absolute-1{
+    /* width: 100px;
+    height: 100px; */
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    background-color: darkolivegreen;
+    color: gold;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
